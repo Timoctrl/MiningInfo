@@ -2,7 +2,7 @@
   "name": "NerdMiner Dashboard",
   "short_name": "NerdMiners",
   "description": "Monitor your NerdMiner devices and pool stats",
-  "start_url": "/",
+  "start_url": "/MiningInfo/",
   "display": "standalone",
   "background_color": "#1a1a18",
   "theme_color": "#1a1a18",

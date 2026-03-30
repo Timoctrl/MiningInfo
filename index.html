@@ -307,7 +307,7 @@ render();
 if(miners.some(m=>m.ip))refreshAll();
 setInterval(()=>{ miners.forEach(m=>{ if(m.ip)fetchMiner(m.id); }); }, 60000);
 
-if("serviceWorker" in navigator){ navigator.serviceWorker.register("/sw.js").catch(()=>{}); }
+if("serviceWorker" in navigator){ navigator.serviceWorker.register("/MiningInfo/sw.js").catch(()=>{}); }
 </script>
 </body>
 </html>
